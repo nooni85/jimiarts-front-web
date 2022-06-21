@@ -4,6 +4,7 @@ const Routes: RouteConfig = {
   routes: [
     {
       path: '/product',
+      hideInMenu: true,
       redirect: 'product/list',
     },
     {
